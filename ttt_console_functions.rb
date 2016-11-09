@@ -16,12 +16,14 @@ def marker_choice
 
 
 	if player_choice == "X"
-		puts "Player 1 is #{player_choice} and Player 2 is O"
+	
+		puts "Player 1 is #{player_choice} and Player 2 is O" 
 	elsif player_choice == "O"
+
 		puts "Player 1 is O and Player 2 is X"
 	else
 		puts "Please enter valid character"
-		marker_choice
+		player_choice = marker_choice
 	end
 	player_choice
 end

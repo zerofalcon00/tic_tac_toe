@@ -17,9 +17,6 @@ end
 
 def test_if_valid_spot?(board, position)
 	board[position] == " "
-
-
-
 end
 
 def test_if_game_is_tied?(board)
